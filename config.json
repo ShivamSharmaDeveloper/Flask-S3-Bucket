@@ -1,0 +1,15 @@
+{
+    "params": {
+        "fb_url": "https://facebook.com/codingthunder",
+        "tw_url": "https://twitter.com/codingthunder",
+        "gh_url": "https://github.com/codingthunder",
+        "website": "FileZ World",
+        "gmail-user": "your-email@gmail.com",
+        "gmail-password": "gmailpassword",
+        "about_text": "Hi my name is Shivam and I am a programmer and I love to write code!",
+        "no_of_posts": 2,
+        "login_image": "login.jpg",
+        "admin_user": "admin",
+        "admin_password": "admin123"
+    }
+}
