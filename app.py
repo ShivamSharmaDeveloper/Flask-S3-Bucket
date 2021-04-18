@@ -41,8 +41,7 @@ def dashboard():
         else:
             flash('Invalid Credentials')
             return render_template("login.html", params=params)
-    else:
-        return render_template("login.html", params=params)
+    return render_template("login.html", params=params)
 
 @app.route('/upload', methods=['GET', 'POST'])
 def upload():
