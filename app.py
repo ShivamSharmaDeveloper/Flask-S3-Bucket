@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, \
     Response, session
-from flask_bootstrap import Bootstrap
 from filters import datetimeformat, file_type
 from resources import get_bucket
 import json
@@ -9,7 +8,6 @@ with open('config.json', 'r') as c:
     params = json.load(c)["params"]
 
 app = Flask(__name__)
-Bootstrap(app)
 app.secret_key = 'secret'
 app.jinja_env.filters['datetimeformat'] = datetimeformat
 app.jinja_env.filters['file_type'] = file_type
