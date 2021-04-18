@@ -1,8 +1,8 @@
 {
     "params": {
-        "fb_url": "https://facebook.com/codingthunder",
-        "tw_url": "https://twitter.com/codingthunder",
-        "gh_url": "https://github.com/codingthunder",
+        "fb_url": "https://facebook.com/",
+        "tw_url": "https://twitter.com/",
+        "gh_url": "https://github.com/",
         "website": "FileZ World",
         "gmail-user": "your-email@gmail.com",
         "gmail-password": "gmailpassword",
